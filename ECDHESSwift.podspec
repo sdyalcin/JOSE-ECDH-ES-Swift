@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ECDHESSwift'
+  s.name             = 'ECDHESSwift5Pod'
   s.version          = '0.0.5'
   s.summary          = 'JOSE ECDH-ES 系列 Swift lib'
 
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 Extend JOSESwift 實作 JOSE ECDH-ES 系列 Swift lib
                        DESC
 
-  s.homepage         = 'https://github.com/104corp/JOSE-ECDH-ES-Swift'
+  s.homepage         = 'https://github.com/sdyalcin/JOSE-ECDH-ES-Swift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'MFantcy' => 'mfantcy@gmail.com' }
-  s.source           = { :git => 'https://github.com/104corp/JOSE-ECDH-ES-Swift.git', :tag => s.version.to_s }
+  s.author           = { 'MFantcy(original)' => 'forpod@podpod.com' }
+  s.source           = { :git => 'https://github.com/sdyalcin/JOSE-ECDH-ES-Swift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
